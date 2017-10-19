@@ -9,18 +9,3 @@ engines:
     checks:
       Similar code:
         enabled: false
-
-ratings:
-  paths:
-  - src/**/*.js
-  - src/**/*.jsx
-  - src/**/*.mjs
-
-exclude_paths:
-- src/cli.js
-- test/**/*.js
-- test/**/*.jsx
-- test/**/*.mjs
-- config/**/*.js
-- config/**/*.jsx
-- config/**/*.mjs
