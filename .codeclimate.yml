@@ -1,0 +1,16 @@
+engines:
+  eslint:
+    enabled: true
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - javascript
+    checks:
+      Similar code:
+        enabled: false ratings:
+  paths:
+  - src/index.js
+  - src/index.mjs
+  - src/utils.mjs
+  - test/index.js
