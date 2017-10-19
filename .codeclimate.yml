@@ -12,9 +12,9 @@ engines:
 
 ratings:
   paths:
-  - src/**/*.js
+  - src/**/*.m?js
 
 exclude_paths:
-- src/cli.js
-- test/**/*.js
-- config/**/*.js
+- src/cli.m?js
+- test/**/*.m?js
+- config/**/*.m?js
