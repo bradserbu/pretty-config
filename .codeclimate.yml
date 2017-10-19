@@ -1,18 +1,14 @@
 engines:
   eslint:
     enabled: true
+    channel: "eslint-4"
   duplication:
     enabled: true
-    config:
-      languages:
-      - javascript
     checks:
       Similar code:
         enabled: false
 
 ratings:
   paths:
-  - src/index.js
-  - src/index.mjs
-  - src/utils.mjs
-  - test/index.js
+  - "**/*.js"
+  - "**/*.mjs"
