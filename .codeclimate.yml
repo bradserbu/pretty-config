@@ -8,7 +8,7 @@ engines:
       - javascript
     checks:
       Similar code:
-        enabled: false ratings:
+        enabled: false
 
 ratings:
   paths:
