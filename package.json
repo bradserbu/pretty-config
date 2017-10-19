@@ -1,6 +1,6 @@
 {
   "name": "@tunnckocore/pretty-config",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Pretty small & fantastic configuration loader, done right. Understands JSON, YAML and JS (both CJS & ESM) config files.",
   "main": "src/index.js",
   "module": "src/index.mjs",
