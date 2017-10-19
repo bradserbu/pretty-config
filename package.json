@@ -1,0 +1,29 @@
+{
+  "name": "@tunnckocore/pretty-config",
+  "version": "0.1.0",
+  "description": "wip",
+  "main": "src/index.js",
+  "module": "src/index.mjs",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": "tunnckocore/pretty-config",
+  "keywords": [
+    "wip"
+  ],
+  "author": "Charlike Mike Reagent",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "8.0.1",
+    "eslint": "4.9.0",
+    "eslint-config-standard-tunnckocore": "1.0.10",
+    "prettier": "1.7.4",
+    "prettier-eslint": "8.2.1",
+    "prettier-eslint-cli": "4.4.0"
+  },
+  "dependencies": {
+    "@std/esm": "0.11.3",
+    "js-yaml": "3.10.0",
+    "pify": "3.0.0"
+  }
+}
