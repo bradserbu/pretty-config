@@ -12,9 +12,15 @@ engines:
 
 ratings:
   paths:
-  - src/**/*.m?js
+  - src/**/*.js
+  - src/**/*.jsx
+  - src/**/*.mjs
 
 exclude_paths:
-- src/cli.m?js
-- test/**/*.m?js
-- config/**/*.m?js
+- src/cli.js
+- test/**/*.js
+- test/**/*.jsx
+- test/**/*.mjs
+- config/**/*.js
+- config/**/*.jsx
+- config/**/*.mjs
