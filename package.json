@@ -22,8 +22,8 @@
     "prettier-eslint-cli": "4.4.0"
   },
   "dependencies": {
-    "@std/esm": "0.11.3",
-    "js-yaml": "3.10.0",
-    "pify": "3.0.0"
+    "@std/esm": "^0.11.3",
+    "js-yaml": "^3.10.0",
+    "pify": "^3.0.0"
   }
 }
